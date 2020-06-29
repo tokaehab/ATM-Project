@@ -1,0 +1,62 @@
+﻿Build started 5/2/2019 12:55:16 PM.
+     1>Project "C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ATM Project\ATM Project\ATM Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib ATM_UserMode.cpp EmployeeScreen.cpp LogInScreen.cpp UserTransactions.cpp main.cpp
+         ATM_UserMode.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\UserTransactions.h(107): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\ATM_UserMode.h(369): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\ATM_UserMode.h(402): warning C4018: '<' : signed/unsigned mismatch
+         EmployeeScreen.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\UserTransactions.h(107): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(219): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(192): warning C4101: 'lineNum' : unreferenced local variable
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(237): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(249): warning C4018: '<' : signed/unsigned mismatch
+         LogInScreen.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\UserTransactions.h(107): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\ATM_UserMode.h(369): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\ATM_UserMode.h(402): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(219): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(192): warning C4101: 'lineNum' : unreferenced local variable
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(237): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(249): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\LogInScreen.h(215): warning C4244: 'initializing' : conversion from '_Longlong' to 'int', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\LogInScreen.h(266): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\LogInScreen.h(328): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\LogInScreen.h(334): warning C4018: '<' : signed/unsigned mismatch
+         UserTransactions.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\UserTransactions.h(107): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\UserTransactions.h(107): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\ATM_UserMode.h(369): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\ATM_UserMode.h(402): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(219): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(192): warning C4101: 'lineNum' : unreferenced local variable
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(237): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\EmployeeScreen.h(249): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\LogInScreen.h(215): warning C4244: 'initializing' : conversion from '_Longlong' to 'int', possible loss of data
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\LogInScreen.h(266): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\LogInScreen.h(328): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\atm project\atm project\LogInScreen.h(334): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ATM Project\Debug\ATM Project.exe" /INCREMENTAL /NOLOGO winmm.lib /ASSEMBLYRESOURCE:Debug\ATMProject.ATM_UserMode.resources /ASSEMBLYRESOURCE:Debug\ATMProject.EmployeeScreen.resources /ASSEMBLYRESOURCE:Debug\ATMProject.LogInScreen.resources /ASSEMBLYRESOURCE:Debug\ATMProject.UserTransactions.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ATM Project\Debug\ATM Project.pdb" /ASSEMBLYDEBUG /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\ATM_UserMode.obj
+         Debug\EmployeeScreen.obj
+         Debug\LogInScreen.obj
+         Debug\main.obj
+         Debug\UserTransactions.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         ATM Project.vcxproj -> C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ATM Project\Debug\ATM Project.exe
+     1>Done Building Project "C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ATM Project\ATM Project\ATM Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.38

@@ -1,0 +1,44 @@
+  ATMProject.ATM_UserMode.resources - Embedded, ContainedInManifestFile, 
+  ATMProject.EmployeeScreen.resources - Embedded, ContainedInManifestFile, 
+  ATMProject.LogInScreen.resources - Embedded, ContainedInManifestFile, 
+  ATMProject.UserTransactions.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ATM Project, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ATMProject.UserTransactions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(std.vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ATMProject.ATM_UserMode: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(ATMProject.UserAccount*, System.String[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 numberOfUsers : Public
+    System.String[] userNames : Public
+  Methods:
+    GetCurrentUser(UserAccount*): PrivateScope, Public, HideBySig
+    GetTransferData(vector<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,int>\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,int> > >*): PrivateScope, Public, HideBySig
+Class ATMProject.EmployeeScreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 numberOfUsers : Public
+Class ATMProject.LogInScreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 wrongPasswordCounter : Public
